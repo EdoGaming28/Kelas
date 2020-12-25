@@ -1,0 +1,17 @@
+--
+name: Kelas
+main:  kelas\Main
+author: EdoGaming_And_YaN
+version: 2.0
+api: 3.0.0
+depend: [FormAPI, PurePerms, PureChat]
+
+commands: 
+ kelas:
+  description: "Pilih Kelas mu"
+  
+permissions:
+  kelas.cmd:
+    description: "Mengijinkan akses kelas"
+    default: op
+...
